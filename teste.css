@@ -1,0 +1,122 @@
+/*** Basic styles*/
+
+/* locker text */
+.onp-sociallocker .onp-sociallocker-strong,
+.onp-sociallocker .onp-sociallocker-message, 
+.onp-sociallocker .onp-sociallocker-timer,
+.onp-sociallocker .onp-sociallocker-error-title,
+.onp-sociallocker-error-text {
+    font: normal normal 400 13px/23px "Arial", "Helvetica", sans-serif;;
+    color: #111;
+}
+
+.onp-sociallocker iframe {
+   margin: 0px !important;
+}
+
+/* locker containers */
+.onp-sociallocker, 
+.onp-sociallocker .onp-sociallocker-outer-wrap, 
+.onp-sociallocker .onp-sociallocker-inner-wrap {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Error that is rised when the locker is setup incorrect. */
+.onp-sociallocker-error {
+    display: block !important;
+    padding: 20px !important;
+    font: normal normal 400 12px/18px "PT Sans", sans-serif !important;
+    background-color: #ffebe8 !important;
+    border: 1px solid #dd3c10 !important;
+    text-align: left !important;
+    -webkit-text-shadow: none !important;
+    -moz-text-shadow: none !important;
+    text-shadow: none !important;
+    margin: 20px 0 !important;
+    color: #000 !important;
+}
+
+.onp-sociallocker {
+    position: relative !important;
+    background-color: #f9f9f9;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 650px;
+}
+.onp-sociallocker p {
+    margin: 0px;
+}
+
+/*** Locker Messages*/
+
+.onp-sociallocker .onp-sociallocker-text {
+    text-align: center;
+}
+.onp-sociallocker-text .onp-sociallocker-strong {
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/*** Locker Errors*/
+
+.onp-sociallocker-state-error .onp-social-button {
+    display: none;
+}
+.onp-sociallocker .onp-sociallocker-error-body {
+    text-align: center;
+}
+.onp-sociallocker .onp-sociallocker-error-title, 
+.onp-sociallocker .onp-sociallocker-error-text {
+    text-shadow: none;
+}
+.onp-sociallocker .onp-sociallocker-error-title {
+    text-align: center;
+    display: inline-block;
+    background-color: #cc0000;
+    font-size: 14px;
+    line-height: 100%;
+    padding: 4px 10px;
+    color: #fff;
+    vertical-align: top;
+}
+.onp-sociallocker .onp-sociallocker-error-title:hover {
+    background-color: #ee0000;
+}
+.onp-sociallocker .onp-sociallocker-error-text {
+    background: #c00;
+    color: #fff;
+    padding: 10px;
+    margin-top: 15px;
+}
+.onp-sociallocker .onp-sociallocker-error-body .onp-sociallocker-error-text {
+    display: none;
+}
+
+/*** Locker Buttons*/
+
+.onp-sociallocker-buttons {
+    text-align: center;
+}
+.onp-sociallocker-text + .onp-sociallocker-buttons {
+    margin-top: 5px;
+	visibility: hidden;
+}
+.onp-sociallocker-button-inner-wrap {
+    height: 40px;
+    min-width: 120px;
+    padding: 10px;
+    
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box;
+}
+.onp-sociallocker-state-loading .onp-sociallocker-button-inner-wrap { 
+    background: url('img/button-loader-f2f2f2.gif') 50% 50% no-repeat;
+}
+
+.onp-social-button {
+    min-width: 104px;
+}
